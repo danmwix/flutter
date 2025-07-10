@@ -39,7 +39,6 @@ class MyHomePage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              // Welcome Message
               const Text(
                 'Hello, Flutter Enthusiast! 🚀',
                 style: TextStyle(
@@ -51,7 +50,6 @@ class MyHomePage extends StatelessWidget {
                 textAlign: TextAlign.center,
               ),
               const SizedBox(height: 24),
-              // Image from the internet
               Image.network(
                 'https://picsum.photos/300?image=42',
                 width: 300,
@@ -68,7 +66,6 @@ class MyHomePage extends StatelessWidget {
                 },
               ),
               const SizedBox(height: 24),
-              // Interactive Button with Gradient
               Container(
                 decoration: BoxDecoration(
                   gradient: const LinearGradient(
@@ -80,7 +77,6 @@ class MyHomePage extends StatelessWidget {
                 ),
                 child: ElevatedButton(
                   onPressed: () {
-                    // ignore: avoid_print
                     print('Button pressed! Let’s make it awesome! 🎉');
                   },
                   style: ElevatedButton.styleFrom(
